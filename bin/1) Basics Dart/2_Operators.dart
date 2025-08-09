@@ -6,6 +6,9 @@ main() {
   print(150 / 2); // Division (/)
   print(150 ~/ 2); // Integer Division (no decimal)(~/)
   print(150 % 13); //Modulus (%). Gives the remainder after division
+  int a = 10;
+  print(-a);
+  print(-a + 10); // Unary minus (-a). Changes the sign of the value in 'a'
 
   int x = 0;
   double y = 10;
