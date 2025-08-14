@@ -21,25 +21,30 @@ main() {
   x ~/= 3; // Int divide & assign
   x %= 3; //  Modulus and assign
 
-/* Comparison Operators
-   ==    Equal to            5 == 5        true
-   !=    Not equal to        5 != 3        true
-   >     Greater than        5 > 3         true
-   <     Less than           3 < 5         true
-   >=    Greater or equal    5 >= 5        true
-   <=    Less or equal       4 <= 5        true
-   is    Type check          'Hi' is String   true
-   is!   Not this type       10 is! String    true
+  /* Comparison Operators
+   ==    Equal to             5 == 5         true
+   !=    Not equal to         5 != 3         true
+   >     Greater than         5 > 3          true
+   <     Less than            3 < 5          true
+   >=    Greater or equal     5 >= 5         true
+   <=    Less or equal        4 <= 5         true
   */
 
   /* Logical Operators
-   &&    AND                 true && false   = false
-   ||    OR                  true || false   = true
-   !     NOT                 !true           = false
+   &&    AND                  true && false  = false
+   ||    OR                   true || false  = true
+   !     NOT                  !true          = false
   */
 
   /* Null-aware Operators
-   ??    Null OR value       null ?? 'Hello'   = 'Hello'
-   ??=   Assign if null      var x; x ??= 5;   // x = 5
+   ??    Null OR value        null ?? 'Hello'   = 'Hello'
+   ??=   Assign if null       var x; x ??= 5;   // x = 5
   */
+
+  /* Type Test Operators
+   is    Type check           'Hi' is String    true
+   is!   Not this type        10 is! String     true
+  */
+
+
 }
