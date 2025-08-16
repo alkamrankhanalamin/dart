@@ -23,6 +23,7 @@ main() {
   x %= 3; //  Modulus and assign
 
   /* Comparison Operators
+  // Dart (এবং programming-এ সাধারণত) comparison operator উচ্চারণ সবসময় বাম দিক থেকে শুরু হয়।
    ==    Equal to             5 == 5         true
    !=    Not equal to         5 != 3         true
    >     Greater than         5 > 3          true
