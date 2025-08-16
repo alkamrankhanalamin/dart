@@ -8,7 +8,8 @@ main() {
   print(150 % 13); //Modulus (%). Gives the remainder after division
   int a = 10;
   print(-a); //Unary = একক // Unary minus (-a). Changes the sign of the value in 'a'
-  print(-a + 10); //Binary = (দ্বৈত / দুইটি)
+  print(-a + 10); // Unary + Binary: (-a) হল Unary, তারপর (-a + 10) Binary (দুইটি অপারেন্ড)
+  // Binary operator হলে 2 operands লাগে, অর্থাৎ operator এর দুই পাশে দুইটা value বা variable থাকতে হবে।
 
   int x = 0;
   double y = 10;
