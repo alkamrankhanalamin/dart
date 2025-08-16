@@ -39,8 +39,8 @@ main() {
   */
 
   /* Null-aware Operators
-   ??    Null OR value        null ?? 'Hello'   = 'Hello'
-   ??=   Assign if null       var x; x ??= 5;   // x = 5
+   ??    Null OR value        null ?? 'Hello'   = 'Hello' // null হলে alternate value use করো, Assign হয় কি? না
+   ??=   Assign if null       var x; x ??= 5;   // x = 5 // null হলে value assign করো, Assign হয় কি? হ্যাঁ
   */
 
   /* Type Test Operators
