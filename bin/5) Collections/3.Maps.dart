@@ -1,15 +1,31 @@
 main() {
-
-  Map<String,int> Student = {
-    'Akash':  100,
-    'Mamun': 32
+  Map<String, int> paymentHistory = {
+    'Shart': 800,
+    'Pant': 100,
+    'Diet Food': 8400
   };
 
-  Student.addAll({'Alax':10});
-  Student.remove('Mamun');
+  print(paymentHistory);
+  paymentHistory['Wifi'] = 500;
+  print(paymentHistory);
 
-  for(var i in Student.entries) {
-    print("${i.key} ${i.value}" );
-  }
+  paymentHistory ['Pant'] = -500;
+  print(paymentHistory);
+
+  paymentHistory.remove('Diet Food');
+  print(paymentHistory);
+
+  Map <String, int> addition = {
+    'Collage' : 5040,
+    'Montly' : 10000
+  };
+
+  paymentHistory.addAll(addition);
+  print(paymentHistory);
+
+  var mapList = paymentHistory.keys.toList();
+  print(mapList);
+
+  print(paymentHistory.containsValue(10000));
 
 }
