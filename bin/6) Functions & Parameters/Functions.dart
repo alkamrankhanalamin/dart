@@ -6,7 +6,7 @@ main() {
 int sum(int x, int y) {
   int result = x + y;
   print(result);
-  return result;
+  return result; //// এটি একটি function (method নয়)। method তখনই হয় যখন কোনো function কোনো class এর ভিতরে লেখা থাকে।
 }
 
 // Optional Parameters
