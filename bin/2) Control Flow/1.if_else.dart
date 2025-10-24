@@ -8,6 +8,7 @@ main() {
     print('Error');
   }
 
+  // Ternary Operator
   // condition ? value_if_true : value_if_false;
 
 }
