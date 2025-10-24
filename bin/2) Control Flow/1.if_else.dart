@@ -7,4 +7,7 @@ main() {
   } else {
     print('Error');
   }
+
+  // condition ? value_if_true : value_if_false;
+
 }
